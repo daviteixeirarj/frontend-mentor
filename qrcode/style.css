@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
-
 }
 
 body{
@@ -68,5 +67,4 @@ p{
 footer{
     max-width: 318.75px;
     text-align: center;
-    
 }
