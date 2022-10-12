@@ -7,25 +7,28 @@
 }
 
 :root{
-    --cor1: #d0d8d9;
-    --cor2: #03a6a6;
-    --cor3: #037f8c;
-    --cor4: #0468bf;
-    --cor5: #022601;
-    --cor5: #012626;
-    --cor6: #0d0d0d;
+    --cor1: #bfd1d9;
+    --cor2: #5a6e73;
+    --cor3: #011c26;
+    --cor4: #010d00;
+
+    --cor-card:#025159;
 }
 
 body{
-    background-color: var(--cor6);
     height: 100vh;
+    
+    background-image: url(../img/background.jpg);
+    background-size: cover;
 }
 
-h1{
-    padding: 8px 0px 16px 0px;
+header{
+    margin-bottom: 8px;
+    padding: 8px 8px 16px;
 
     text-align: center;
 
+    background-color: #0d0d0dcc;
     color: var(--cor1);
 }
 
@@ -38,6 +41,8 @@ ul{
 
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 a{
@@ -53,7 +58,7 @@ a{
 
     text-decoration: none;
     font-size: 1.25rem;
-    color: var(--cor1);
+    color: var(--cor2);
 
     cursor: pointer;
 
@@ -61,8 +66,10 @@ a{
 }
 
 a:hover{
-    background-color: var(--cor2);
+    background-color: var(--cor-card);
     box-shadow: 1px 0px 32px var(--cor1);
+
+    color: var(--cor4);
 }
 
 p{
