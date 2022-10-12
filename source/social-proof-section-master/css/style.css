@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div#up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#copy{
+    background-color: #fff;
+}
+
+h1{
+    width: 410px;
+    padding: 0px 0px 16px;
+    font-size: 3rem;
+    color: #502050;
+}
+
+section#copy > p{
+    width: 390px;
+    color: #937b92;
+    line-height: 24px;
+}
+
+section#rate{
+    position: relative;
+    right: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+span{
+    padding: 16px;
+    background-color: #f7f2f7;
+    border-radius: 8px;
+    color: #502050;
+    font-weight: 700;
+}
+
+span#rate2{
+    position: relative;
+    left: 64px;
+}
+
+span#rate3{
+    position: relative;
+    left: 128px;
+}
+
+section#testimonials{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.testimonial{
+    background-color: #502050;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+#colton{
+
+}
+
+#irene{
+
+}
+
+#anne{
+
+}
+
+div.person{
+    display: flex;
+    align-items: center;
+}
+
+
+img{
+    border-radius: 50%;
+}
+
+q{
+    width: 277px;
+    display: block;
+    color: #f7f2f7;
+    line-height: 24px;
+}
