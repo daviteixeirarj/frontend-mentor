@@ -8,19 +8,20 @@
 }
 
 body{
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 main{
-    width: 80vw;
-    height: 100vh;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 96px;
 }
 
 div#up{
@@ -35,7 +36,6 @@ section#copy{
 
 h1{
     width: 410px;
-    padding: 0px 0px 16px;
     font-size: 3rem;
     color: #502050;
 }
@@ -46,9 +46,7 @@ section#copy > p{
     line-height: 24px;
 }
 
-section#rate{
-    position: relative;
-    right: 128px;
+aside#rate{
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -62,43 +60,49 @@ span{
     font-weight: 700;
 }
 
-span#rate2{
-    position: relative;
-    left: 64px;
+span > p {
+    display: inline-block;
+    margin-left: 16px;
 }
 
-span#rate3{
+span#rate1{
     position: relative;
-    left: 128px;
+    right: 128px;
+}
+
+span#rate2{
+    position: relative;
+    right: 64px;
 }
 
 section#testimonials{
     display: flex;
     justify-content: space-between;
-    gap: 16px;
 }
 
 .testimonial{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     background-color: #502050;
     padding: 32px;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 #colton{
-
+    position: relative;
+    bottom: 32px;
 }
 
 #irene{
-
-}
-
-#anne{
-
+    position: relative;
+    bottom: 16px;
 }
 
 div.person{
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
 
@@ -106,9 +110,30 @@ img{
     border-radius: 50%;
 }
 
+div.person > img{
+    border-radius: 50%;
+    width: 48px;
+}
+
+.client{
+    color: #f7f2f7;
+    font-weight: bold;
+}
+
+.verified{
+    color: #ee68a4a9;
+    
+}
+
 q{
     width: 277px;
+    padding-top: 16px;
     display: block;
     color: #f7f2f7;
     line-height: 24px;
 }
+
+/*
+1285 - 1 depoimento por linha
+1055 - Texto do lado do titulo e cards com estrelas side by side
+*/
